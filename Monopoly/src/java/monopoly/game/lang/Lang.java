@@ -8,7 +8,7 @@ import java.util.Properties;
 
 public class Lang {
 	public static final String LANG_FOLDER = "lang";
-	public static final String BOARD= "board";
+	public static final String BOARD = "board";
 	public static final String SQUARE = BOARD+".square";
 	public static final String STREET = SQUARE+".street";
 	public static final String TRANSPORT = SQUARE+".transport";
