@@ -37,6 +37,7 @@ public class CartsScripts {
 	public static void getScript(String function,Object ... args){
 		LuaValue[] luaArgs = new LuaValue[args.length];
 		for (int i = 0; i < luaArgs.length; i++) {
+			
 			luaArgs[i] = CoerceJavaToLua.coerce(args[i]);
 		}
 		LuaValue luaFunction = luaGlobals.get(function);
