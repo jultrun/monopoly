@@ -1,4 +1,4 @@
-package monopoly.game.lang;
+package monopoly.game.translation;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -11,7 +11,7 @@ import org.luaj.vm2.LuaValue;
 import org.luaj.vm2.lib.jse.CoerceJavaToLua;
 import org.luaj.vm2.lib.jse.JsePlatform;
 
-public class CartsScripts {
+public class Script {
 	private static final String FOLDER_SCRIPTS = "scrips";
 	private static Globals luaGlobals = JsePlatform.standardGlobals();
 	public static void init(String script) throws IOException {
@@ -35,15 +35,17 @@ public class CartsScripts {
 
 	}
 	public static void getScript(String function,Object ... args){
-		LuaValue[] luaArgs = new LuaValue[args.length];
-		for (int i = 0; i < luaArgs.length; i++) {
-			
-			luaArgs[i] = CoerceJavaToLua.coerce(args[i]);
-		}
 		LuaValue luaFunction = luaGlobals.get(function);
+		LuaValue[] luaArgs = new LuaValue[args.length];
 		if(!luaFunction.isnil()){
+			for (int i = 0; i < luaArgs.length; i++) {	
+				luaArgs[i] = CoerceJavaToLua.coerce(args[i]);
+			}
 			luaFunction.invoke(LuaValue.varargsOf(luaArgs));
 		}
+		
+		
+		
 	}
 
 }

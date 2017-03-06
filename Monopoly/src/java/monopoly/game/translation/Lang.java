@@ -1,4 +1,4 @@
-package monopoly.game.lang;
+package monopoly.game.translation;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -14,7 +14,6 @@ public class Lang {
 	public static final String TRANSPORT = SQUARE+".transport";
 	public static final String PUBLIC_SERVICE  = SQUARE+".public_service";
 	private static Properties properties = new Properties();
-
 	public static void init(String lang) throws IOException {
 		lang=lang+".lang";
 		InputStream propertiesFile = null;

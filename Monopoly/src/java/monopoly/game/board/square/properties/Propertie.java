@@ -1,7 +1,7 @@
 package monopoly.game.board.square.properties;
 
 import monopoly.game.board.square.Square;
-import monopoly.game.lang.Lang;
+import monopoly.game.translation.Lang;
 
 public abstract class Propertie extends Square{
 	private int price;

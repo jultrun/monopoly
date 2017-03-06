@@ -1,6 +1,6 @@
 package monopoly.game.board.square.properties;
 
-import monopoly.game.lang.Lang;
+import monopoly.game.translation.Lang;
 
 public class Street extends Propertie{
 	private int rentWith1House;

@@ -1,6 +1,12 @@
 board.square.chance.name=Fortuna
 board.square.community_chest.name=Arca comunal
 
+board.carts.chance.to_jail=1
+board.carts.chance.out_jail=2
+
+board.carts.community_chest.to_jail=3
+board.carts.community_chest.out_jail=4
+
 board.free_parking.name=
 
 board.square.go.name=Salida
