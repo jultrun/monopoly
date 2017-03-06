@@ -4,7 +4,7 @@ import monopoly.game.board.square.Square;
 
 public class Income_tax extends Square {
 
-	public Income_tax(String name) {
+	public Income_tax() {
 		super("income.tax");
 	}
 

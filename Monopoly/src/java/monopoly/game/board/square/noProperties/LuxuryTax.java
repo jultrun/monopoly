@@ -4,7 +4,7 @@ import monopoly.game.board.square.Square;
 
 public class LuxuryTax extends Square {
 
-	public LuxuryTax(String name) {
+	public LuxuryTax() {
 		super("luxury.tax");
 	}
 

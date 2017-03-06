@@ -4,7 +4,7 @@ import monopoly.game.board.square.Square;
 
 public class FreeParking extends Square {
 
-	public FreeParking(String name) {
+	public FreeParking() {
 		super("free_parking");
 	}
 

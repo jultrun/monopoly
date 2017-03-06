@@ -12,7 +12,7 @@ public class Lang {
 	public static final String SQUARE = BOARD+".square";
 	public static final String STREET = SQUARE+".street";
 	public static final String TRANSPORT = SQUARE+".transport";
-	public static final String PUBLIC_SERVICE = SQUARE+".public_service";
+	public static final String PUBLIC_SERVICE  = SQUARE+".public_service";
 	private static Properties properties = new Properties();
 
 	public static void init(String lang) throws IOException {

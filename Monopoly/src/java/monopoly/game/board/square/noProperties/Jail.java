@@ -4,7 +4,7 @@ import monopoly.game.board.square.Square;
 
 public class Jail extends Square {
 
-	public Jail(String name) {
+	public Jail() {
 		super("jail");
 	}
 
