@@ -1,6 +1,6 @@
-package monopoly.game.board.square.properties;
+package co.trungames.monopoly.game.board.square.properties;
 
-import monopoly.game.translation.Lang;
+import co.trungames.monopoly.game.translation.Lang;
 
 public class Street extends Propertie{
 	private int rentWith1House;

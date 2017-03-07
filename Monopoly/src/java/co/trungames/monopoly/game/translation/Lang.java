@@ -1,4 +1,4 @@
-package monopoly.game.translation;
+package co.trungames.monopoly.game.translation;
 
 import java.io.File;
 import java.io.FileInputStream;

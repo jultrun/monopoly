@@ -1,6 +1,6 @@
-package monopoly.game.board.square;
+package co.trungames.monopoly.game.board.square;
 
-import monopoly.game.translation.Lang;
+import co.trungames.monopoly.game.translation.Lang;
 
 public abstract class Square {
 	private String name;

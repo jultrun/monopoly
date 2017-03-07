@@ -1,20 +1,20 @@
-package monopoly.game.board;
+package co.trungames.monopoly.game.board;
 
 import java.util.ArrayList;
 
-import monopoly.game.board.cards.Cart;
-import monopoly.game.board.square.Square;
-import monopoly.game.board.square.noProperties.Chance;
-import monopoly.game.board.square.noProperties.CommunityChest;
-import monopoly.game.board.square.noProperties.FreeParking;
-import monopoly.game.board.square.noProperties.Income_tax;
-import monopoly.game.board.square.noProperties.Jail;
-import monopoly.game.board.square.noProperties.LuxuryTax;
-import monopoly.game.board.square.noProperties.ToJail;
-import monopoly.game.board.square.properties.PublicService;
-import monopoly.game.board.square.properties.Street;
-import monopoly.game.board.square.properties.Transport;
-import monopoly.game.translation.Lang;
+import co.trungames.monopoly.game.board.cards.Cart;
+import co.trungames.monopoly.game.board.square.Square;
+import co.trungames.monopoly.game.board.square.noProperties.Chance;
+import co.trungames.monopoly.game.board.square.noProperties.CommunityChest;
+import co.trungames.monopoly.game.board.square.noProperties.FreeParking;
+import co.trungames.monopoly.game.board.square.noProperties.Income_tax;
+import co.trungames.monopoly.game.board.square.noProperties.Jail;
+import co.trungames.monopoly.game.board.square.noProperties.LuxuryTax;
+import co.trungames.monopoly.game.board.square.noProperties.ToJail;
+import co.trungames.monopoly.game.board.square.properties.PublicService;
+import co.trungames.monopoly.game.board.square.properties.Street;
+import co.trungames.monopoly.game.board.square.properties.Transport;
+import co.trungames.monopoly.game.translation.Lang;
 
 public class Board {
 	private ArrayList<Square> suquares=new ArrayList<>();

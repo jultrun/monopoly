@@ -1,7 +1,7 @@
-package monopoly.game.board.cards;
+package co.trungames.monopoly.game.board.cards;
 
-import monopoly.game.board.Board;
-import monopoly.game.translation.Script;
+import co.trungames.monopoly.game.board.Board;
+import co.trungames.monopoly.game.translation.Script;
 
 public class Cart {
 	private String message;

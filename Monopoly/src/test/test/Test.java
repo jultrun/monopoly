@@ -2,9 +2,9 @@ package test;
 
 import java.io.IOException;
 
-import monopoly.game.board.Board;
-import monopoly.game.translation.Lang;
-import monopoly.game.translation.Script;
+import co.trungames.monopoly.game.board.Board;
+import co.trungames.monopoly.game.translation.Lang;
+import co.trungames.monopoly.game.translation.Script;
 
 public class Test {
 
