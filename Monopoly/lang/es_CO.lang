@@ -7,32 +7,34 @@ board.carts.chance.out_jail=2
 board.carts.community_chest.to_jail=3
 board.carts.community_chest.out_jail=4
 
-board.free_parking.name=
+board.free_parking.name=Parada libre
 
 board.square.go.name=Salida
 board.square.go.bound=2000000
 
 board.square.jail.name=Carcel
-board.square.to_jail.name=Ve a la carcel
+board.square.to_jail.name=Váayase a la carcel
 
-board.square.income.tax=
-board.square.luxury.tax=
+board.square.income.tax=2000000
+board.square.luxury.tax=1000000
 
 
-board.square.public_service1.name=
-board.square.public_service2.name=
-board.square.public_service.price=
-board.square.public_service.mortgage=
-board.square.public_service.rent=
+board.square.public_service1.name=Compañia de telefonía celular
+board.square.public_service2.name=Compañia de Internet
+board.square.public_service.price=1500000
+board.square.public_service.mortgage=750000
+board.square.public_service.rent=10000
 
-board.square.transport1.name=areopuerto de medellin
-board.square.transport2.name==areopuerto de bogota
-board.square.transport.price=100
-board.square.transport.mortgage=121
-board.square.transport.rent=1
-board.square.transport.rent1=2
-board.square.transport.rent2=3
-board.square.transport.rent3=4
+board.square.transport1.name=Aereopuerto de Bogotá
+board.square.transport2.name==areopuerto de Medellín
+board.square.transport3.name==areopuerto de Cali
+board.square.transport4.name==areopuerto de Barranquilla
+board.square.transport.price=2000000
+board.square.transport.mortgage=1000000
+board.square.transport.rent=250000
+board.square.transport.rent2=500000
+board.square.transport.rent3=1000000
+board.square.transport.rent4=2000000
 
 
 board.square.public_service.rent1=Puente de Boyaca
@@ -44,8 +46,8 @@ board.square.public_service2.name=5
 board.square.public_service2.price=6
 board.square.public_service2.mortgage=7
 
-board.square.street1.name=Puente de Boyaca
-board.square.street1.price=1
+board.square.street1.name=Puente de Boyacá
+board.square.street1.price=600000
 board.square.street1.mortgage=300000
 board.square.street1.rent=20000
 board.square.street1.rent_with_1house=100000
@@ -55,49 +57,49 @@ board.square.street1.rent_with_4house=1600000
 board.square.street1.rent_with_hotel=1200000
 board.square.street1.price_bulding=500000
 
-board.square.street2.name=
-board.square.street2.price=
-board.square.street2.mortgage=
-board.square.street2.rent=
-board.square.street2.rent_with_1house=
-board.square.street2.rent_with_2house=
-board.square.street2.rent_with_3house=
-board.square.street2.rent_with_4house=
-board.square.street2.rent_with_hotel=
-board.square.street2.price_bulding=
+board.square.street2.name=Cabo de la Vela
+board.square.street2.price=600000
+board.square.street2.mortgage=300000
+board.square.street2.rent=40000
+board.square.street2.rent_with_1house=200000
+board.square.street2.rent_with_2house=600000
+board.square.street2.rent_with_3house=1800000
+board.square.street2.rent_with_4house=3200000
+board.square.street2.rent_with_hotel=4500000
+board.square.street2.price_bulding=500000
 
-board.square.street3.name=
-board.square.street3.price=
-board.square.street3.mortgage=
-board.square.street3.rent=
-board.square.street3.rent_with_1house=
-board.square.street3.rent_with_2house=
-board.square.street3.rent_with_3house=
-board.square.street3.rent_with_4house=
-board.square.street3.rent_with_hotel=
-board.square.street3.price_bulding=
+board.square.street3.name=Medellín y su feria de las Flores
+board.square.street3.price=1000000
+board.square.street3.mortgage=500000
+board.square.street3.rent=60000
+board.square.street3.rent_with_1house=300000
+board.square.street3.rent_with_2house=900000
+board.square.street3.rent_with_3house=2700000
+board.square.street3.rent_with_4house=4000000
+board.square.street3.rent_with_hotel=5500000
+board.square.street3.price_bulding=50000
 
-board.square.street4.name=
-board.square.street4.price=
-board.square.street4.mortgage=
-board.square.street4.rent=
-board.square.street4.rent_with_1house=
-board.square.street4.rent_with_2house=
-board.square.street4.rent_with_3house=
-board.square.street4.rent_with_4house=
-board.square.street4.rent_with_hotel=
-board.square.street4.price_bulding=
+board.square.street4.name=Avistamiento de ballenas
+board.square.street4.price=1000000
+board.square.street4.mortgage=500000
+board.square.street4.rent=60000
+board.square.street4.rent_with_1house=300000
+board.square.street4.rent_with_2house=900000
+board.square.street4.rent_with_3house=2700000
+board.square.street4.rent_with_4house=4000000
+board.square.street4.rent_with_hotel=5500000
+board.square.street4.price_bulding=500000
 
-board.square.street5.name=
-board.square.street5.price=
-board.square.street5.mortgage=
-board.square.street5.rent=
-board.square.street5.rent_with_1house=
-board.square.street5.rent_with_2house=
-board.square.street5.rent_with_3house=
-board.square.street5.rent_with_4house=
-board.square.street5.rent_with_hotel=
-board.square.street5.price_bulding=
+board.square.street5.name=Fuerte de San Fernando-Cartagena
+board.square.street5.price=1200000
+board.square.street5.mortgage=600000
+board.square.street5.rent=80000
+board.square.street5.rent_with_1house=400000
+board.square.street5.rent_with_2house=1000000
+board.square.street5.rent_with_3house=3000000
+board.square.street5.rent_with_4house=4500000
+board.square.street5.rent_with_hotel=6000000
+board.square.street5.price_bulding=500000
 
 board.square.street6.name=
 board.square.street6.price=
