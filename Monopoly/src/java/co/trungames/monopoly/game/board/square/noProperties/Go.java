@@ -4,7 +4,7 @@ import co.trungames.monopoly.game.board.square.Square;
 
 public class Go extends Square{
 
-	public Go(String name) {
+	public Go() {
 		super("go");
 	}
 

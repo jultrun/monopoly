@@ -1,5 +1,6 @@
 package co.trungames.monopoly.game.board.square.properties;
 
+import co.trungames.monopoly.game.board.Player;
 import co.trungames.monopoly.game.board.square.Square;
 import co.trungames.monopoly.game.translation.Lang;
 
@@ -9,6 +10,7 @@ public abstract class Propertie extends Square{
     private int mortgage;
     private boolean mortgaged=false;
     private int rent;
+    private Player player;
     
   
 
@@ -16,7 +18,8 @@ public abstract class Propertie extends Square{
 		super(key);
 		this.price = Lang.getInt(Lang.SQUARE+"."+key+".price");
 		this.mortgage = Lang.getInt(Lang.SQUARE+"."+key+".mortgage");
-		this.rent = Lang.getInt(Lang.SQUARE+"."+key+".rent");		
+		this.rent = Lang.getInt(Lang.SQUARE+"."+key+".rent");
+		this.player = null;
 	}
 	
 	public int getPrice() {
@@ -48,5 +51,11 @@ public abstract class Propertie extends Square{
 	}
 	public void setPurchased(boolean purchased) {
 		this.purchased = purchased;
+	}
+	public Player getPlayer() {
+		return player;
+	}
+	public void setPlayer(Player player) {
+		this.player = player;
 	}
 }
