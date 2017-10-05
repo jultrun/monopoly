@@ -57,6 +57,7 @@ project(":core") {
         compile "com.badlogicgames.gdx:gdx-box2d:$gdxVersion"
         compile "com.underwaterapps.overlap2druntime:overlap2d-runtime-libgdx:0.1.0"
         compile "com.kotcrab.vis:vis-ui:1.3.0"
+		compile fileTree(dir: '../libs', include: '*.jar')
         
     }
 }
