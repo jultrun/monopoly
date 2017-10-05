@@ -24,12 +24,7 @@
 		<link>
 			<name>assets</name>
 			<type>2</type>
-			<locationURI>PARENT-1-PROJECT_LOC/core/assets</locationURI>
-		</link>
-		<link>
-			<name>assets_</name>
-			<type>2</type>
-			<locationURI>PARENT-1-PROJECT_LOC/core/assets</locationURI>
+			<location>C:/Users/USUARIO/workspace/monopoly-git/core/assets</location>
 		</link>
 	</linkedResources>
 	<filteredResources>

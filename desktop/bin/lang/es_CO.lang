@@ -1,0 +1,289 @@
+board.square.chance.name=Fortuna
+board.square.community_chest.name=Arca comunal
+
+board.carts.chance.to_jail=1
+board.carts.chance.out_jail=2
+
+board.carts.community_chest.to_jail=3
+board.carts.community_chest.out_jail=4
+
+board.free_parking.name=Parada libre
+
+board.square.go.name=Salida
+board.square.go.bound=2000000
+
+board.square.jail.name=Carcel
+board.square.to_jail.name=Váayase a la carcel
+
+board.square.income.tax=2000000
+board.square.luxury.tax=1000000
+
+
+board.square.public_service1.name=Compañia de telefonía celular
+board.square.public_service2.name=Compañia de Internet
+board.square.public_service.price=1500000
+board.square.public_service.mortgage=750000
+board.square.public_service.rent=10000
+
+board.square.transport1.name=Aereopuerto de Bogotá
+board.square.transport2.name==areopuerto de Medellín
+board.square.transport3.name==areopuerto de Cali
+board.square.transport4.name==areopuerto de Barranquilla
+board.square.transport.price=2000000
+board.square.transport.mortgage=1000000
+board.square.transport.rent=250000
+board.square.transport.rent2=500000
+board.square.transport.rent3=1000000
+board.square.transport.rent4=2000000
+
+
+board.square.public_service.rent1=Puente de Boyaca
+board.square.public_service.rent1=1
+board.square.public_service1..name=2
+board.square.public_service1.price=3
+board.square.public_service1.mortgage=4
+board.square.public_service2.name=5
+board.square.public_service2.price=6
+board.square.public_service2.mortgage=7
+
+board.square.street1.name=Puente de Boyacá
+board.square.street1.price=600000
+board.square.street1.mortgage=300000
+board.square.street1.rent=20000
+board.square.street1.rent_with_1house=100000
+board.square.street1.rent_with_2house=300000
+board.square.street1.rent_with_3house=900000
+board.square.street1.rent_with_4house=1600000
+board.square.street1.rent_with_hotel=1200000
+board.square.street1.price_bulding=500000
+
+board.square.street2.name=Cabo de la Vela
+board.square.street2.price=600000
+board.square.street2.mortgage=300000
+board.square.street2.rent=40000
+board.square.street2.rent_with_1house=200000
+board.square.street2.rent_with_2house=600000
+board.square.street2.rent_with_3house=1800000
+board.square.street2.rent_with_4house=3200000
+board.square.street2.rent_with_hotel=4500000
+board.square.street2.price_bulding=500000
+
+board.square.street3.name=Medellín y su feria de las Flores
+board.square.street3.price=1000000
+board.square.street3.mortgage=500000
+board.square.street3.rent=60000
+board.square.street3.rent_with_1house=300000
+board.square.street3.rent_with_2house=900000
+board.square.street3.rent_with_3house=2700000
+board.square.street3.rent_with_4house=4000000
+board.square.street3.rent_with_hotel=5500000
+board.square.street3.price_bulding=50000
+
+board.square.street4.name=Avistamiento de ballenas
+board.square.street4.price=1000000
+board.square.street4.mortgage=500000
+board.square.street4.rent=60000
+board.square.street4.rent_with_1house=300000
+board.square.street4.rent_with_2house=900000
+board.square.street4.rent_with_3house=2700000
+board.square.street4.rent_with_4house=4000000
+board.square.street4.rent_with_hotel=5500000
+board.square.street4.price_bulding=500000
+
+board.square.street5.name=Fuerte de San Fernando-Cartagena
+board.square.street5.price=1200000
+board.square.street5.mortgage=600000
+board.square.street5.rent=80000
+board.square.street5.rent_with_1house=400000
+board.square.street5.rent_with_2house=1000000
+board.square.street5.rent_with_3house=3000000
+board.square.street5.rent_with_4house=4500000
+board.square.street5.rent_with_hotel=6000000
+board.square.street5.price_bulding=500000
+
+board.square.street6.name=Barranquilla y su carnaval
+board.square.street6.price=1400000
+board.square.street6.mortgage=700000
+board.square.street6.rent=100000
+board.square.street6.rent_with_1house=500000
+board.square.street6.rent_with_2house=1500000
+board.square.street6.rent_with_3house=4500000
+board.square.street6.rent_with_4house=6250000
+board.square.street6.rent_with_hotel=7500000
+board.square.street6.price_bulding=100000
+
+board.square.street7.name=Ciudad perdida de Magdalena
+board.square.street7.price=1400000
+board.square.street7.mortgage=700000
+board.square.street7.rent=100000
+board.square.street7.rent_with_1house=500000
+board.square.street7.rent_with_2house=1500000
+board.square.street7.rent_with_3house=4500000
+board.square.street7.rent_with_4house=6250000
+board.square.street7.rent_with_hotel=7200000
+board.square.street7.price_bulding=100000
+
+board.square.street8.name=El Embalse de Guatapé y el Peñol
+board.square.street8.price=1600000
+board.square.street8.mortgage=800000
+board.square.street8.rent=12000
+board.square.street8.rent_with_1house=600000
+board.square.street8.rent_with_2house=1800000
+board.square.street8.rent_with_3house=5000000
+board.square.street8.rent_with_4house=7000000
+board.square.street8.rent_with_hotel=9000000
+board.square.street8.price_bulding=1000000
+
+board.square.street9.name=La Piscina Natural
+board.square.street9.price=1800000
+board.square.street9.mortgage=900000
+board.square.street9.rent=140000
+board.square.street9.rent_with_1house=700000
+board.square.street9.rent_with_2house=2000000
+board.square.street9.rent_with_3house=5500000
+board.square.street9.rent_with_4house=7500000
+board.square.street9.rent_with_hotel=9500000
+board.square.street9.price_bulding=
+
+board.square.street10.name=Parque Arquelogico de San Agustin
+board.square.street10.price=1800000
+board.square.street10.mortgage=900000
+board.square.street10.rent=140000
+board.square.street10.rent_with_1house=700000
+board.square.street10.rent_with_2house=2000000
+board.square.street10.rent_with_3house=5500000
+board.square.street10.rent_with_4house=7500000
+board.square.street10.rent_with_hotel=95000000
+board.square.street10.price_bulding=1000000
+
+board.square.street11.name=Cañon ddel Chicamocha
+board.square.street11.price=2000000
+board.square.street11.mortgage=1000000
+board.square.street11.rent=160000
+board.square.street11.rent_with_1house=800000
+board.square.street11.rent_with_2house=2200000
+board.square.street11.rent_with_3house=6000000
+board.square.street11.rent_with_4house=8000000
+board.square.street11.rent_with_hotel=10000000
+board.square.street11.price_bulding=1000000
+
+board.square.street12.name=Villa de Leyva
+board.square.street12.price=2200000
+board.square.street12.mortgage=1100000
+board.square.street12.rent=180000
+board.square.street12.rent_with_1house=900000
+board.square.street12.rent_with_2house=2500000
+board.square.street12.rent_with_3house=7000000
+board.square.street12.rent_with_4house=8750000
+board.square.street12.rent_with_hotel=10500000
+board.square.street12.price_bulding=1500000
+
+board.square.street13.name=Metro de Medellín
+board.square.street13.price=2200000
+board.square.street13.mortgage=1100000
+board.square.street13.rent=1800000
+board.square.street13.rent_with_1house=900000
+board.square.street13.rent_with_2house=2500000
+board.square.street13.rent_with_3house=7000000
+board.square.street13.rent_with_4house=8740000
+board.square.street13.rent_with_hotel=10500000
+board.square.street13.price_bulding=1500000
+
+board.square.street14.name=Bogotá
+board.square.street14.price=2400000
+board.square.street14.mortgage=1200000
+board.square.street14.rent=200000
+board.square.street14.rent_with_1house=1000000
+board.square.street14.rent_with_2house=3000000
+board.square.street14.rent_with_3house=7500000
+board.square.street14.rent_with_4house=9250000
+board.square.street14.rent_with_hotel=11000000
+board.square.street14.price_bulding=1500000
+
+board.square.street15.name=Eje Cafetero
+board.square.street15.price=2600000
+board.square.street15.mortgage=1300000
+board.square.street15.rent=220000
+board.square.street15.rent_with_1house=1100000
+board.square.street15.rent_with_2house=3300000
+board.square.street15.rent_with_3house=8000000
+board.square.street15.rent_with_4house=8750000
+board.square.street15.rent_with_hotel=11500000
+board.square.street15.price_bulding=1500000
+
+board.square.street16.name=Monserrate
+board.square.street16.price=2600000
+board.square.street16.mortgage=1300000
+board.square.street16.rent=220000
+board.square.street16.rent_with_1house=1100000
+board.square.street16.rent_with_2house=3300000
+board.square.street16.rent_with_3house=8000000
+board.square.street16.rent_with_4house=9750000
+board.square.street16.rent_with_hotel=11500000
+board.square.street16.price_bulding=1500000
+
+board.square.street17.name=Monumento Las Lajas
+board.square.street17.price=2800000
+board.square.street17.mortgage=1400000
+board.square.street17.rent=240000
+board.square.street17.rent_with_1house=1200000
+board.square.street17.rent_with_2house=3600000
+board.square.street17.rent_with_3house=8500000
+board.square.street17.rent_with_4house=10250000
+board.square.street17.rent_with_hotel=12000000
+board.square.street17.price_bulding=1500000
+
+board.square.street18.name=Nevado del Ruiz
+board.square.street18.price=3000000
+board.square.street18.mortgage=1500000
+board.square.street18.rent=260000
+board.square.street18.rent_with_1house=1300000
+board.square.street18.rent_with_2house=3900000
+board.square.street18.rent_with_3house=9000000
+board.square.street18.rent_with_4house=11000000
+board.square.street18.rent_with_hotel=12750000
+board.square.street18.price_bulding=1500000
+
+board.square.street19.name=Catedral de Zipaquirá
+board.square.street19.price=3000000
+board.square.street19.mortgage=1500000
+board.square.street19.rent=2600000
+board.square.street19.rent_with_1house=1300000
+board.square.street19.rent_with_2house=3900000
+board.square.street19.rent_with_3house=9000000
+board.square.street19.rent_with_4house=11000000
+board.square.street19.rent_with_hotel=127500000
+board.square.street19.price_bulding=2000000
+
+board.square.street20.name=San Andrés
+board.square.street20.price=3200000
+board.square.street20.mortgage=1600000
+board.square.street20.rent=280000
+board.square.street20.rent_with_1house=1500000
+board.square.street20.rent_with_2house=4500000
+board.square.street20.rent_with_3house=10000000
+board.square.street20.rent_with_4house=12000000
+board.square.street20.rent_with_hotel=140000000
+board.square.street20.price_bulding=2000000
+
+board.square.street21.name=Caño Cristales
+board.square.street21.price=3500000
+board.square.street21.mortgage=1750000
+board.square.street21.rent=350000
+board.square.street21.rent_with_1house=1750000
+board.square.street21.rent_with_2house=5000000
+board.square.street21.rent_with_3house=11000000
+board.square.street21.rent_with_4house=13000000
+board.square.street21.rent_with_hotel=15000000
+board.square.street21.price_bulding=2000000
+
+board.square.street22.name=Parque Tayrona
+board.square.street22.price=4000000
+board.square.street22.mortgage=2000000
+board.square.street22.rent=500000
+board.square.street22.rent_with_1house=2000000
+board.square.street22.rent_with_2house=6000000
+board.square.street22.rent_with_3house=14000000
+board.square.street22.rent_with_4house=17000000
+board.square.street22.rent_with_hotel=20000000
+board.square.street22.price_bulding=2000000
