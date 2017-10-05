@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
 	<name>monopoly-desktop</name>
-	<comment></comment>
+	<comment>Project monopoly-desktop created by Buildship.</comment>
 	<projects>
 	</projects>
 	<buildSpec>
@@ -24,27 +24,7 @@
 		<link>
 			<name>assets</name>
 			<type>2</type>
-			<location>C:/Users/USUARIO/workspace/monopoly-git/core/assets</location>
+			<locationURI>PARENT-1-PROJECT_LOC/core/assets</locationURI>
 		</link>
 	</linkedResources>
-	<filteredResources>
-		<filter>
-			<id>1507186575391</id>
-			<name></name>
-			<type>26</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-projectRelativePath-matches-false-false-build</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1507186575395</id>
-			<name></name>
-			<type>26</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-projectRelativePath-matches-false-false-.gradle</arguments>
-			</matcher>
-		</filter>
-	</filteredResources>
 </projectDescription>

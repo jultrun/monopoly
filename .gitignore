@@ -1,3 +1,4 @@
-## Java
-/core/build
-/desktop/build 
+/core/build/
+/desktop/build/
+/core/bin/
+/desktop/bin/
