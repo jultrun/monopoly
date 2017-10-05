@@ -8,7 +8,7 @@ import co.trungames.monopoly.game.Monopoly2;
 public class DesktopLauncher {
 	public static void main (String[] arg) {
 		LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
-		//new LwjglApplication(new Monopoly2(), config);
-		new Monopoly().main(arg);;
+		new LwjglApplication(new Monopoly2(), config);
+		//new Monopoly().main(arg);;
 	}
 }
