@@ -7,7 +7,7 @@ board.carts.chance.out_jail=2
 board.carts.community_chest.to_jail=3
 board.carts.community_chest.out_jail=4
 
-board.free_parking.name=Parada libre
+board.square.free_parking.name=Parada libre
 
 board.square.go.name=Salida
 board.square.go.bound=2000000
@@ -26,9 +26,9 @@ board.square.public_service.mortgage=750000
 board.square.public_service.rent=10000
 
 board.square.transport1.name=Aereopuerto de Bogotá
-board.square.transport2.name==areopuerto de Medellín
-board.square.transport3.name==areopuerto de Cali
-board.square.transport4.name==areopuerto de Barranquilla
+board.square.transport2.name=Areopuerto de Medellín
+board.square.transport3.name=Areopuerto de Cali
+board.square.transport4.name=Areopuerto de Barranquilla
 board.square.transport.price=2000000
 board.square.transport.mortgage=1000000
 board.square.transport.rent=250000
