@@ -3,9 +3,9 @@ package co.trungames.monopoly.desktop;
 import com.badlogic.gdx.Graphics.DisplayMode;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplication;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;
+
 import co.trungames.monopoly.game.Menu;
 import co.trungames.monopoly.game.Monopoly2;
-import co.trungames.monopoly.game.UITest;
 
 public class DesktopLauncher {
 	public static void main (String[] arg) {
