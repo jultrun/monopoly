@@ -7,7 +7,7 @@ board.carts.chance.out_jail=2
 board.carts.community_chest.to_jail=3
 board.carts.community_chest.out_jail=4
 
-board.free_parking.name=Parada libre
+board.square.free_parking.name=Parada libre
 
 board.square.go.name=Salida
 board.square.go.bound=2000000
@@ -15,8 +15,10 @@ board.square.go.bound=2000000
 board.square.jail.name=Carcel
 board.square.to_jail.name=Váayase a la carcel
 
+board.square.income.name=sadasd
+board.square.luxury.name=sad
 board.square.income.tax=2000000
-board.square.luxury.tax=1000000
+board.square.luxury.tax.tax=1000000
 
 
 board.square.public_service1.name=Compañia de telefonía celular
@@ -26,9 +28,9 @@ board.square.public_service.mortgage=750000
 board.square.public_service.rent=10000
 
 board.square.transport1.name=Aereopuerto de Bogotá
-board.square.transport2.name==areopuerto de Medellín
-board.square.transport3.name==areopuerto de Cali
-board.square.transport4.name==areopuerto de Barranquilla
+board.square.transport2.name=Areopuerto de Medellín
+board.square.transport3.name=Areopuerto de Cali
+board.square.transport4.name=Areopuerto de Barranquilla
 board.square.transport.price=2000000
 board.square.transport.mortgage=1000000
 board.square.transport.rent=250000
@@ -42,7 +44,7 @@ board.square.public_service.rent1=1
 board.square.public_service1..name=2
 board.square.public_service1.price=3
 board.square.public_service1.mortgage=4
-board.square.public_service2.name=5
+board.square.public_service2.name=Areopuerto de nose
 board.square.public_service2.price=6
 board.square.public_service2.mortgage=7
 
@@ -156,7 +158,7 @@ board.square.street10.rent_with_4house=7500000
 board.square.street10.rent_with_hotel=95000000
 board.square.street10.price_bulding=1000000
 
-board.square.street11.name=Cañon ddel Chicamocha
+board.square.street11.name=Cañon del Chicamocha
 board.square.street11.price=2000000
 board.square.street11.mortgage=1000000
 board.square.street11.rent=160000
