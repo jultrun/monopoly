@@ -4,23 +4,12 @@ import java.io.IOException;
 
 import com.badlogic.gdx.ApplicationAdapter;
 import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.GL20;
-import com.badlogic.gdx.graphics.Pixmap;
 import com.badlogic.gdx.graphics.Texture;
-import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.Stage;
-import com.badlogic.gdx.scenes.scene2d.ui.Button;
-import com.badlogic.gdx.scenes.scene2d.ui.ButtonGroup;
-import com.badlogic.gdx.scenes.scene2d.ui.Container;
-import com.badlogic.gdx.scenes.scene2d.ui.Image;
-import com.badlogic.gdx.scenes.scene2d.ui.ImageButton;
-import com.badlogic.gdx.scenes.scene2d.ui.Label;
-import com.badlogic.gdx.scenes.scene2d.ui.List;
-import com.badlogic.gdx.scenes.scene2d.ui.Label.LabelStyle;
-import com.badlogic.gdx.scenes.scene2d.ui.ScrollPane;
+import com.badlogic.gdx.scenes.scene2d.ui.Skin;
+import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.kotcrab.vis.ui.VisUI;
 import com.kotcrab.vis.ui.widget.VisTable;
 
@@ -29,12 +18,6 @@ import co.trungames.monopoly.game.translation.Lang;
 import co.trungames.monopoly.game.translation.Script;
 import co.trungames.monopoly.game.ui.Font;
 import co.trungames.monopoly.game.ui.UiSquare;
-
-import com.badlogic.gdx.scenes.scene2d.ui.Skin;
-import com.badlogic.gdx.scenes.scene2d.ui.Table;
-import com.badlogic.gdx.scenes.scene2d.ui.TextButton;
-import com.badlogic.gdx.scenes.scene2d.ui.TextField;
-import com.badlogic.gdx.scenes.scene2d.ui.Value;
 
 public class Menu extends ApplicationAdapter {
 	SpriteBatch batch;
@@ -66,11 +49,9 @@ public class Menu extends ApplicationAdapter {
 	      VisTable screenTable = new VisTable(); 
 	      screenTable .setFillParent(true); 
 	      stage.addActor(screenTable);
-	      screenTable.debug();
-	      TextButton im=new TextButton("ss2",skin);
-	      
-	      im.setName("im3");
-	      screenTable.add(im).expand().growX().top().height(height*0.26f); 
+	      Table infoSquare=new Table(skin);
+	      infoSquare.setName("infoSquare");
+	      screenTable.add(infoSquare).expand().growX().top().height(height*0.26f).maxWidth(width*0.26f); 
 	      //TextButton nameLabel = new TextButton("Namswswdswswse:", skin); 
 	      //List list = new List(skin); 
 	    //list.setItems(1,2,3,4,5,6,7,11,221,212,121,121212,12121,2121,12121,121212,121221,2121,2121,2121,212,1212,121,1221); 

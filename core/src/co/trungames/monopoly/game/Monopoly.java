@@ -5,17 +5,13 @@ import java.util.Random;
 import java.util.Scanner;
 import java.util.Stack;
 
-import javax.swing.JOptionPane;
-
 import co.trungames.monopoly.game.board.Board;
 import co.trungames.monopoly.game.board.Player;
 import co.trungames.monopoly.game.board.cards.Cart;
 import co.trungames.monopoly.game.board.square.Square;
 import co.trungames.monopoly.game.board.square.noProperties.Chance;
 import co.trungames.monopoly.game.board.square.noProperties.CommunityChest;
-import co.trungames.monopoly.game.board.square.noProperties.FreeParking;
 import co.trungames.monopoly.game.board.square.noProperties.Income_tax;
-import co.trungames.monopoly.game.board.square.noProperties.Jail;
 import co.trungames.monopoly.game.board.square.noProperties.LuxuryTax;
 import co.trungames.monopoly.game.board.square.noProperties.ToJail;
 import co.trungames.monopoly.game.board.square.properties.Propertie;

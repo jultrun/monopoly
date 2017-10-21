@@ -11,7 +11,7 @@ public class Font {
 	public static void Generatefont() {
 		FreeTypeFontGenerator generator = new FreeTypeFontGenerator(Gdx.files.internal("font/Amble-Light.ttf"));
 	    FreeTypeFontGenerator.FreeTypeFontParameter parameter = new FreeTypeFontGenerator.FreeTypeFontParameter();
-	    parameter.size = 5;
+	    parameter.size = 7;
 	    parameter.color = Color.BLACK;
 	    BitmapFont font24 = generator.generateFont(parameter); // font size 24 pixels
 	    generator.dispose();

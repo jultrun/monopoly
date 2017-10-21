@@ -1,13 +1,10 @@
 package co.trungames.monopoly.game.ui;
 
-import com.badlogic.gdx.Input.Keys;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
-import com.badlogic.gdx.scenes.scene2d.ui.Dialog;
-import com.badlogic.gdx.scenes.scene2d.ui.ImageButton;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.ui.Skin;
-import com.badlogic.gdx.scenes.scene2d.ui.TextButton;
+import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.utils.Align;
 
@@ -38,6 +35,9 @@ public class UiSquare extends Rectangle{
 			addActor(interior);  
 		    Label label2 = new Label(square.getName(),Font.labelStyle);
 		    label2.setPosition(3, getHeight()/2);
+		    label2.setWidth(getWidth());
+		    label2.setWrap(true);
+		    label2.setAlignment(Align.center);
 		    addActor(label2);
 		}
 	}
@@ -46,28 +46,33 @@ public class UiSquare extends Rectangle{
 	
 
 	protected void dialog(InputEvent event) {
-		Dialog dialog=new Dialog(square.getName(), skin, "dialog");
-		TextButton im= getStage().getRoot().findActor("im3");
-		System.out.println(im.getText());
-		dialog.getTitleLabel().setAlignment(Align.center);
-		
+		//Dialog dialog=new Dialog(square.getName(), skin, "dialog");
+		//dialog.getTitleLabel().setAlignment(Align.center);
+		Table infoSquare= getStage().getRoot().findActor("infoSquare");
+		int widh=(int) infoSquare.getWidth();
+		infoSquare.reset();
+		Label label = new Label(square.getName(), skin);
+		label.setWrap(true);
+		label.setWidth(10); // or even as low as 10
+		infoSquare.add(label).width(widh).colspan(2);
+		infoSquare.row();
 		if (square instanceof Propertie) {
-			dialog.getContentTable().add(new Label("precio:", skin)).align(Align.left);;
-			dialog.getContentTable().add(new Label(((Propertie) square).getPrice()+"", skin)).align(Align.left);;
-			dialog.getContentTable().row();
-			dialog.getContentTable().add(new Label("Hipoteca:", skin)).align(Align.left);;
-			dialog.getContentTable().add(new Label(((Propertie) square).getMortgage()+"", skin)).align(Align.left);;
-			dialog.getContentTable().row();
-			dialog.getContentTable().add(new Label("Renta:", skin)).align(Align.left);;
-			dialog.getContentTable().add(new Label(((Propertie) square).getRent()+"", skin)).align(Align.left);;
+			infoSquare.add(new Label("precio:", skin)).align(Align.left);;
+			infoSquare.add(new Label(((Propertie) square).getPrice()+"", skin)).align(Align.left);;
+			infoSquare.row();
+			infoSquare.add(new Label("Hipoteca:", skin)).align(Align.left);;
+			infoSquare.add(new Label(((Propertie) square).getMortgage()+"", skin)).align(Align.left);;
+			infoSquare.row();
+			infoSquare.add(new Label("Renta:", skin)).align(Align.left);;
+			infoSquare.add(new Label(((Propertie) square).getRent()+"", skin)).align(Align.left);;
 
 		}
 		
-		dialog.button("ok",true);
-		dialog.key(Keys.ESCAPE, false);
-		dialog.show(getStage());
-		dialog.setHeight(getParent().getParent().getHeight()/4f);
-		dialog.setWidth((int)getParent().getParent().getWidth()/4);
+		//dialog.button("ok",true);
+		//dialog.key(Keys.ESCAPE, false);
+		//dialog.show(getStage());
+		//dialog.setHeight(getParent().getParent().getHeight()/4f);
+		//dialog.setWidth((int)getParent().getParent().getWidth()/4);
 	}
 	
 	

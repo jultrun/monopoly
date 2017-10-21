@@ -5,7 +5,7 @@ import co.trungames.monopoly.game.board.square.Square;
 public class LuxuryTax extends Square {
 	private int tax;
 	public LuxuryTax() {
-		super("luxury.tax");
+		super("luxury");
 		this.setTax(10);
 	}
 	public int getTax() {
